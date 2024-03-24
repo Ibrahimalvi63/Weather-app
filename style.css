@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+  }
+  input{
+    border: none;
+    outline: none;
+    background: none;
+  }
+  button{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
+  }
+  
+  
+  
+  .container{
+    height: 600px;
+    width: 60%;
+    margin-top: 10rem;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  
+  .container h5{
+    margin: 1rem;
+    padding: 1rem;
+    color: #555;
+  }
+  
+  .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  .details div{
+    margin: 1rem;
+    font: 20px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  .weather_icon img{
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .temperature{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .description{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .container{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;}
+    
+    
+  }
+  
